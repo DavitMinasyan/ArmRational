@@ -74,6 +74,7 @@ class Rational:
         return "{}/{}".format(self.n, self.d)
 
 
+
     __repr__ = __str__
 
     def __float__(self):
@@ -87,6 +88,7 @@ if __name__ == '__main__':
     t = Rational(-1, 6)
     v = Rational(1, 3)
 #    w = t+v
+
     print(t+v)
     print(t-v)
     print(t*v)
